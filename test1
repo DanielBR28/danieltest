@@ -7,8 +7,6 @@
 <button id="iframePitcher" onclick="pitchMessage()">Pitch to Host</button>
 
 <script>
-
-
 function pitchMessage() {
   window.parent.postMessage("W3Schools domain - Hi Parent!", "https://github.com/");
 }
